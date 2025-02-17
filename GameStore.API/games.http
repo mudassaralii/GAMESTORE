@@ -1,0 +1,15 @@
+GET http://localhost:5011/games
+
+###
+GET http://localhost:5011/games/4
+
+###
+POST http://localhost:5011/games/
+Content-Type: application/json
+
+{
+    "name": "New Game",
+    "genre": "Kids",
+    "price": 19.99,
+    "releaseDate":"2020-07-07"
+}
