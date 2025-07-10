@@ -1,7 +1,7 @@
 GET http://localhost:5011/games
 
 ###
-GET http://localhost:5011/games/4
+GET http://localhost:5011/games/3
 
 ###
 POST http://localhost:5011/games/
@@ -15,11 +15,11 @@ Content-Type: application/json
 }
 
 ###
-PUT http://localhost:5011/games/1
+PUT http://localhost:5011/games/3
 Content-Type: application/json
 
 {    
-    "name": "Game11 Name",
+    "name": "Game112 Name",
     "genre": "Fighting1",
     "price": 9,
     "releaseDate": "1972-07-15"
