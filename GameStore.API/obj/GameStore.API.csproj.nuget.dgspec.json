@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "F:\\Working\\Projects\\GameStore\\GameStore.API\\GameStore.API.csproj": {}
+    "D:\\Mudassar\\Working\\Projects\\GameStore\\GameStore.API\\GameStore.API.csproj": {}
   },
   "projects": {
-    "F:\\Working\\Projects\\GameStore\\GameStore.API\\GameStore.API.csproj": {
+    "D:\\Mudassar\\Working\\Projects\\GameStore\\GameStore.API\\GameStore.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\Working\\Projects\\GameStore\\GameStore.API\\GameStore.API.csproj",
+        "projectUniqueName": "D:\\Mudassar\\Working\\Projects\\GameStore\\GameStore.API\\GameStore.API.csproj",
         "projectName": "GameStore.API",
-        "projectPath": "F:\\Working\\Projects\\GameStore\\GameStore.API\\GameStore.API.csproj",
-        "packagesPath": "C:\\Users\\osis\\.nuget\\packages\\",
-        "outputPath": "F:\\Working\\Projects\\GameStore\\GameStore.API\\obj\\",
+        "projectPath": "D:\\Mudassar\\Working\\Projects\\GameStore\\GameStore.API\\GameStore.API.csproj",
+        "packagesPath": "C:\\Users\\mudassarali\\.nuget\\packages\\",
+        "outputPath": "D:\\Mudassar\\Working\\Projects\\GameStore\\GameStore.API\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\osis\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\mudassarali\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],

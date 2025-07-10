@@ -13,3 +13,19 @@ Content-Type: application/json
     "price": 19.99,
     "releaseDate":"2020-07-07"
 }
+
+###
+PUT http://localhost:5011/games/1
+Content-Type: application/json
+
+{    
+    "name": "Game11 Name",
+    "genre": "Fighting1",
+    "price": 9,
+    "releaseDate": "1972-07-15"
+}
+
+###
+DELETE http://localhost:5011/games/1
+
+
