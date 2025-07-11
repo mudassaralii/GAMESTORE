@@ -27,35 +27,38 @@ public static class GamesEndpoints
 ];
 //extension method - 
 public static RouteGroupBuilder MapGamesEndpoints(this WebApplication app)
-{
-    //group build
-    //all of my route start with games
-    var group =app.MapGroup("games");
-    
-    //GET /games
-    group.MapGet("/", () => games);
-
-    // GET /games/1
-    group.MapGet("/{id}",(int id) =>
     {
-        GameDtos? game = games.Find(game => game.Id == id);
+        //group build
+        //all of my route start with games
+        var group = app.MapGroup("games")
+                    .WithParameterValidation(); //minimalAPIs extensions for applying endpoint parameters validations to all endpoints;
 
-        return game is null ? Results.NotFound() : Results.Ok(game);
-    })
-    .WithName(GetGameEndpointName);
+        //GET /games
+        group.MapGet("/", () => games);
 
-    // POST /games
-    group.MapPost("/", (CreateGameDto newGame) => {
-        GameDtos game= new(
-            games.Count+1,
-            newGame.Name,
+        // GET /games/1
+        group.MapGet("/{id}", (int id) =>
+         {
+             GameDtos? game = games.Find(game => game.Id == id);
+
+             return game is null ? Results.NotFound() : Results.Ok(game);
+         })
+        .WithName(GetGameEndpointName);
+
+        // POST /games
+        group.MapPost("/", (CreateGameDto newGame) =>
+        {
+        GameDtos game = new (
+        games.Count + 1,
+        newGame.Name,
             newGame.Genre,
             newGame.Price,
             newGame.ReleaseDate);
         games.Add(game);
 
-        return Results.CreatedAtRoute(GetGameEndpointName,new {id=game.Id},game);  //return id with paylod of the newly created record
+        return Results.CreatedAtRoute(GetGameEndpointName, new { id = game.Id }, game);  //return id with paylod of the newly created record
     });
+    
 
     //PUT /games
     group.MapPut("/{id}", (int id, UpdateGameDto updatedGame) =>
