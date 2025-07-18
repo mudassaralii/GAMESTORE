@@ -1,39 +1,113 @@
 {
   "version": 2,
-  "dgSpecHash": "pu6yoOsJ6SU=",
-  "success": false,
+  "dgSpecHash": "isucMAzN6u4=",
+  "success": true,
   "projectFilePath": "D:\\Mudassar\\Working\\Projects\\GameStore\\GameStore.API\\GameStore.API.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\mudassarali\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
+    "C:\\Users\\mudassarali\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\7.0.0\\microsoft.bcl.asyncinterfaces.7.0.0.nupkg.sha512",
+    "C:\\Users\\mudassarali\\.nuget\\packages\\microsoft.codeanalysis.analyzers\\3.3.4\\microsoft.codeanalysis.analyzers.3.3.4.nupkg.sha512",
+    "C:\\Users\\mudassarali\\.nuget\\packages\\microsoft.codeanalysis.common\\4.8.0\\microsoft.codeanalysis.common.4.8.0.nupkg.sha512",
+    "C:\\Users\\mudassarali\\.nuget\\packages\\microsoft.codeanalysis.csharp\\4.8.0\\microsoft.codeanalysis.csharp.4.8.0.nupkg.sha512",
+    "C:\\Users\\mudassarali\\.nuget\\packages\\microsoft.codeanalysis.csharp.workspaces\\4.8.0\\microsoft.codeanalysis.csharp.workspaces.4.8.0.nupkg.sha512",
+    "C:\\Users\\mudassarali\\.nuget\\packages\\microsoft.codeanalysis.workspaces.common\\4.8.0\\microsoft.codeanalysis.workspaces.common.4.8.0.nupkg.sha512",
+    "C:\\Users\\mudassarali\\.nuget\\packages\\microsoft.data.sqlite.core\\8.0.6\\microsoft.data.sqlite.core.8.0.6.nupkg.sha512",
+    "C:\\Users\\mudassarali\\.nuget\\packages\\microsoft.entityframeworkcore\\8.0.6\\microsoft.entityframeworkcore.8.0.6.nupkg.sha512",
+    "C:\\Users\\mudassarali\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\8.0.6\\microsoft.entityframeworkcore.abstractions.8.0.6.nupkg.sha512",
+    "C:\\Users\\mudassarali\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\8.0.6\\microsoft.entityframeworkcore.analyzers.8.0.6.nupkg.sha512",
+    "C:\\Users\\mudassarali\\.nuget\\packages\\microsoft.entityframeworkcore.design\\8.0.6\\microsoft.entityframeworkcore.design.8.0.6.nupkg.sha512",
+    "C:\\Users\\mudassarali\\.nuget\\packages\\microsoft.entityframeworkcore.relational\\8.0.6\\microsoft.entityframeworkcore.relational.8.0.6.nupkg.sha512",
+    "C:\\Users\\mudassarali\\.nuget\\packages\\microsoft.entityframeworkcore.sqlite\\8.0.6\\microsoft.entityframeworkcore.sqlite.8.0.6.nupkg.sha512",
+    "C:\\Users\\mudassarali\\.nuget\\packages\\microsoft.entityframeworkcore.sqlite.core\\8.0.6\\microsoft.entityframeworkcore.sqlite.core.8.0.6.nupkg.sha512",
+    "C:\\Users\\mudassarali\\.nuget\\packages\\microsoft.extensions.dependencymodel\\8.0.0\\microsoft.extensions.dependencymodel.8.0.0.nupkg.sha512",
+    "C:\\Users\\mudassarali\\.nuget\\packages\\microsoft.openapi\\1.6.23\\microsoft.openapi.1.6.23.nupkg.sha512",
+    "C:\\Users\\mudassarali\\.nuget\\packages\\minimalapi.endpoint\\1.3.0\\minimalapi.endpoint.1.3.0.nupkg.sha512",
+    "C:\\Users\\mudassarali\\.nuget\\packages\\minimalapis.extensions\\0.11.0\\minimalapis.extensions.0.11.0.nupkg.sha512",
+    "C:\\Users\\mudassarali\\.nuget\\packages\\minivalidation\\0.8.0\\minivalidation.0.8.0.nupkg.sha512",
+    "C:\\Users\\mudassarali\\.nuget\\packages\\mono.texttemplating\\2.2.1\\mono.texttemplating.2.2.1.nupkg.sha512",
+    "C:\\Users\\mudassarali\\.nuget\\packages\\sqlitepclraw.bundle_e_sqlite3\\2.1.6\\sqlitepclraw.bundle_e_sqlite3.2.1.6.nupkg.sha512",
+    "C:\\Users\\mudassarali\\.nuget\\packages\\sqlitepclraw.core\\2.1.11\\sqlitepclraw.core.2.1.11.nupkg.sha512",
+    "C:\\Users\\mudassarali\\.nuget\\packages\\sqlitepclraw.lib.e_sqlite3\\2.1.7\\sqlitepclraw.lib.e_sqlite3.2.1.7.nupkg.sha512",
+    "C:\\Users\\mudassarali\\.nuget\\packages\\sqlitepclraw.provider.e_sqlite3\\2.1.7\\sqlitepclraw.provider.e_sqlite3.2.1.7.nupkg.sha512",
+    "C:\\Users\\mudassarali\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.5.0\\swashbuckle.aspnetcore.swagger.6.5.0.nupkg.sha512",
+    "C:\\Users\\mudassarali\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.5.0\\swashbuckle.aspnetcore.swaggergen.6.5.0.nupkg.sha512",
+    "C:\\Users\\mudassarali\\.nuget\\packages\\system.codedom\\6.0.0\\system.codedom.6.0.0.nupkg.sha512",
+    "C:\\Users\\mudassarali\\.nuget\\packages\\system.composition\\7.0.0\\system.composition.7.0.0.nupkg.sha512",
+    "C:\\Users\\mudassarali\\.nuget\\packages\\system.composition.attributedmodel\\7.0.0\\system.composition.attributedmodel.7.0.0.nupkg.sha512",
+    "C:\\Users\\mudassarali\\.nuget\\packages\\system.composition.convention\\7.0.0\\system.composition.convention.7.0.0.nupkg.sha512",
+    "C:\\Users\\mudassarali\\.nuget\\packages\\system.composition.hosting\\7.0.0\\system.composition.hosting.7.0.0.nupkg.sha512",
+    "C:\\Users\\mudassarali\\.nuget\\packages\\system.composition.runtime\\7.0.0\\system.composition.runtime.7.0.0.nupkg.sha512",
+    "C:\\Users\\mudassarali\\.nuget\\packages\\system.composition.typedparts\\7.0.0\\system.composition.typedparts.7.0.0.nupkg.sha512"
+  ],
   "logs": [
     {
-      "code": "NU1101",
-      "level": "Error",
-      "message": "Unable to find package Microsoft.EntityFrameworkCore.Sqlite. No packages exist with this id in source(s): C:\\Program Files\\dotnet\\library-packs, local-offline",
+      "code": "NU1603",
+      "level": "Warning",
+      "message": "Microsoft.EntityFrameworkCore.Design 8.0.6 depends on Microsoft.CodeAnalysis.CSharp.Workspaces (>= 4.5.0) but Microsoft.CodeAnalysis.CSharp.Workspaces 4.5.0 was not found. Microsoft.CodeAnalysis.CSharp.Workspaces 4.8.0 was resolved instead.",
       "projectPath": "D:\\Mudassar\\Working\\Projects\\GameStore\\GameStore.API\\GameStore.API.csproj",
+      "warningLevel": 1,
       "filePath": "D:\\Mudassar\\Working\\Projects\\GameStore\\GameStore.API\\GameStore.API.csproj",
-      "libraryId": "Microsoft.EntityFrameworkCore.Sqlite",
+      "libraryId": "Microsoft.CodeAnalysis.CSharp.Workspaces",
       "targetGraphs": [
         "net10.0"
       ]
     },
     {
-      "code": "NU1101",
-      "level": "Error",
-      "message": "Unable to find package MinimalApi.Endpoint. No packages exist with this id in source(s): C:\\Program Files\\dotnet\\library-packs, local-offline",
+      "code": "NU1603",
+      "level": "Warning",
+      "message": "MinimalApis.Extensions 0.11.0 depends on Microsoft.OpenApi (>= 1.4.3) but Microsoft.OpenApi 1.4.3 was not found. Microsoft.OpenApi 1.6.23 was resolved instead.",
       "projectPath": "D:\\Mudassar\\Working\\Projects\\GameStore\\GameStore.API\\GameStore.API.csproj",
+      "warningLevel": 1,
       "filePath": "D:\\Mudassar\\Working\\Projects\\GameStore\\GameStore.API\\GameStore.API.csproj",
-      "libraryId": "MinimalApi.Endpoint",
+      "libraryId": "Microsoft.OpenApi",
       "targetGraphs": [
         "net10.0"
       ]
     },
     {
-      "code": "NU1101",
-      "level": "Error",
-      "message": "Unable to find package MinimalApis.Extensions. No packages exist with this id in source(s): C:\\Program Files\\dotnet\\library-packs, local-offline",
+      "code": "NU1603",
+      "level": "Warning",
+      "message": "Microsoft.Data.Sqlite.Core 8.0.6 depends on SQLitePCLRaw.core (>= 2.1.7) but SQLitePCLRaw.core 2.1.7 was not found. SQLitePCLRaw.core 2.1.11 was resolved instead.",
       "projectPath": "D:\\Mudassar\\Working\\Projects\\GameStore\\GameStore.API\\GameStore.API.csproj",
+      "warningLevel": 1,
       "filePath": "D:\\Mudassar\\Working\\Projects\\GameStore\\GameStore.API\\GameStore.API.csproj",
-      "libraryId": "MinimalApis.Extensions",
+      "libraryId": "SQLitePCLRaw.core",
+      "targetGraphs": [
+        "net10.0"
+      ]
+    },
+    {
+      "code": "NU1603",
+      "level": "Warning",
+      "message": "SQLitePCLRaw.bundle_e_sqlite3 2.1.6 depends on SQLitePCLRaw.lib.e_sqlite3 (>= 2.1.6) but SQLitePCLRaw.lib.e_sqlite3 2.1.6 was not found. SQLitePCLRaw.lib.e_sqlite3 2.1.7 was resolved instead.",
+      "projectPath": "D:\\Mudassar\\Working\\Projects\\GameStore\\GameStore.API\\GameStore.API.csproj",
+      "warningLevel": 1,
+      "filePath": "D:\\Mudassar\\Working\\Projects\\GameStore\\GameStore.API\\GameStore.API.csproj",
+      "libraryId": "SQLitePCLRaw.lib.e_sqlite3",
+      "targetGraphs": [
+        "net10.0"
+      ]
+    },
+    {
+      "code": "NU1603",
+      "level": "Warning",
+      "message": "SQLitePCLRaw.bundle_e_sqlite3 2.1.6 depends on SQLitePCLRaw.provider.e_sqlite3 (>= 2.1.6) but SQLitePCLRaw.provider.e_sqlite3 2.1.6 was not found. SQLitePCLRaw.provider.e_sqlite3 2.1.7 was resolved instead.",
+      "projectPath": "D:\\Mudassar\\Working\\Projects\\GameStore\\GameStore.API\\GameStore.API.csproj",
+      "warningLevel": 1,
+      "filePath": "D:\\Mudassar\\Working\\Projects\\GameStore\\GameStore.API\\GameStore.API.csproj",
+      "libraryId": "SQLitePCLRaw.provider.e_sqlite3",
+      "targetGraphs": [
+        "net10.0"
+      ]
+    },
+    {
+      "code": "NU1603",
+      "level": "Warning",
+      "message": "Mono.TextTemplating 2.2.1 depends on System.CodeDom (>= 4.4.0) but System.CodeDom 4.4.0 was not found. System.CodeDom 6.0.0 was resolved instead.",
+      "projectPath": "D:\\Mudassar\\Working\\Projects\\GameStore\\GameStore.API\\GameStore.API.csproj",
+      "warningLevel": 1,
+      "filePath": "D:\\Mudassar\\Working\\Projects\\GameStore\\GameStore.API\\GameStore.API.csproj",
+      "libraryId": "System.CodeDom",
       "targetGraphs": [
         "net10.0"
       ]
